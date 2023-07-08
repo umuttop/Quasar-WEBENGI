@@ -18,7 +18,7 @@
           <div class="col-12 text-center align-self-center py-5">
             <div class="section pb-5 pt-5 pt-sm-2 text-center">
                           <!--Wechsel zwischen Einloggen und Registrieren-->
-              <h6 class="mb-0 pb-3"><span>Einloggen </span><span>Registrieren</span></h6>
+              <h6 class="mb-0 pb-3"><span>Einloggen oder Nicht </span><span>Registrieren</span></h6>
                     <input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
                     <label for="reg-log"></label>
               <div class="card-3d-wrap mx-auto">
