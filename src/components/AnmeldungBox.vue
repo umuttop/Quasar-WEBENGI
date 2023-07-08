@@ -18,7 +18,7 @@
           <div class="col-12 text-center align-self-center py-5">
             <div class="section pb-5 pt-5 pt-sm-2 text-center">
                           <!--Wechsel zwischen Einloggen und Registrieren-->
-              <h6 class="mb-0 pb-3"><span>Einloggen oder Nicht </span><span>Registrieren</span></h6>
+              <h6 class="mb-0 pb-3"><span>Einloggen</span><span>Registrieren</span></h6>
                     <input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
                     <label for="reg-log"></label>
               <div class="card-3d-wrap mx-auto">
@@ -31,7 +31,7 @@
                         <div class="form-group">
                           <input type="email" class="form-style" placeholder="Email">
                           <i class="input-icon uil uil-at"></i>
-                        </div>	
+                        </div>
                         <div class="form-group mt-2">
                           <input type="password" class="form-style" placeholder="Passwort">
                           <i class="input-icon uil uil-lock-alt"></i>
@@ -46,7 +46,7 @@
                     <div class="center-wrap">
                       <div class="section text-center">
                         <h4 class="mb-3 pb-3">Registrieren</h4>
-                  
+
                         <div class="form-group mt-2">
                           <input type="email" class="form-style" placeholder="Email">
                           <i class="input-icon uil uil-at"></i>
@@ -162,7 +162,7 @@ display: none;
   position:absolute;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  transition: all 600ms ease-out; 
+  transition: all 600ms ease-out;
 }
 .card-front, .card-back {
   width: 100%;
@@ -189,7 +189,7 @@ display: none;
   z-index: 20;
   display: block;
 }
-.form-group{ 
+.form-group{
   position: relative;
   display: block;
     margin: 0;
@@ -230,7 +230,7 @@ display: none;
   -webkit-transition: all 200ms linear;
    transition: all 200ms linear;
 }
-.btn{  
+.btn{
   border-radius: 4px;
   height: 44px;
   font-size: 13px;
@@ -247,7 +247,7 @@ display: none;
   background-color: #f7f7fa;
   color: #152565;
 }
-.btn:hover{  
+.btn:hover{
   background-color: #152565;
   color: #f7f7fa;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
@@ -258,7 +258,7 @@ display: none;
 import { getAuth } from "firebase/auth";
 firebase.auth().createUserWithEmailAndPassword(email, password)
   .then((userCredential) => {
-    // Signed in 
+    // Signed in
     var user = userCredential.user;
     // ...
   })
